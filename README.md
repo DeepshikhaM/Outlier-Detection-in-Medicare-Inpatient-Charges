@@ -1,6 +1,6 @@
-# Fraud-Framework-Detection
+# Outlier-Detection-in-Medicare-Inpatient-Charges
 
-# Medicare Inpatient Hospitals Dataset
+## Medicare Inpatient Hospitals Dataset
 
 ## Overview
 The **Medicare Inpatient Hospitals by Geography and Service** dataset provides information on hospital discharges for Original Medicare Part A beneficiaries across **IPPS hospitals** (Inpatient Prospective Payment System). It contains details on hospital discharges, charges, and payments related to Medicare patients.
@@ -41,25 +41,8 @@ How can we identify and address anomalies or fraudulent activities in Medicare h
 7. **Business Impact**: These insights can drive policy adjustments, audits, and resource allocation, potentially saving millions in Medicare reimbursements by addressing fraudulent claims and improving cost efficiency.
 8. **Future Opportunities**: Integrating temporal trends, broader care settings (e.g., outpatient services), and predictive modeling can enhance fraud detection and healthcare policy development. Real-time anomaly detection could further optimize resource allocation and compliance monitoring.
 
-## Installation and Dependencies
-To analyze this dataset, install the required dependencies using:
 
-```bash
-pip install -r requirements.txt
-```
 
-## Usage
-Load the dataset and perform basic analysis:
-
-```python
-import pandas as pd
-
-# Load dataset
-df = pd.read_csv("medicare_inpatient_hospitals.csv")
-
-# View dataset
-print(df.head())
-```
 
 ## License
 This dataset is publicly available and subject to relevant data usage policies.
